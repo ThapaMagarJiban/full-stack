@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiban Thapa Magar - Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css">
+    
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loader">
+            <div class="loader-inner"></div>
+        </div>
+        <p>Loading Portfolio...</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Jiban Thapa Magar</div>
+            <ul class="nav-menu">
+                <li><a href="#profile" class="nav-link">Profile</a></li>
+                <li><a href="#fullstack" class="nav-link">Full Stack</a></li>
+                <li><a href="#html" class="nav-link">HTML</a></li>
+                <li><a href="#css" class="nav-link">CSS</a></li>
+                <li><a href="#bootstrap" class="nav-link">Bootstrap</a></li>
+                <li><a href="#javascript" class="nav-link">JavaScript</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="scroll-indicator"></div>
+    </nav>
+
+    <!-- Profile Section -->
+    <section id="profile" class="section profile-section">
+        <div class="animated-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="profile-hero">
+                <div class="profile-content">
+                    <div class="profile-text">
+                        <h1 class="profile-title">
+                            <span class="greeting">Hello, I'm</span>
+                            <span class="name">Jiban Thapa Magar</span>
+                        </h1>
+                        <p class="profile-subtitle">Full Stack Developer</p>
+                        <p class="profile-description">My name is Jiban, and I am about to graduate with a degree in Computer Systems Engineering from the University of Sunderland. I have developed strong skills in full stack development, working with front-end technologies like HTML, CSS, and JavaScript, as well as back-end frameworks such as Node.js and databases like MongoDB and SQL. Through academic projects and practical experience, I have built responsive and efficient web applications. I am enthusiastic about problem-solving, working collaboratively, and eager to start my career as a junior full stack developer while continuing to grow my technical expertise.</p>
+                        <div class="profile-buttons">
+                            <a href="#fullstack" class="btn btn--primary">Explore My Work</a>
+                            <a href="magarjiban367@email.com" class="btn btn--outline">Get In Touch</a>
+                        </div>
+                    </div>
+                    <div class="profile-image">
+                        <div class="image-placeholder">
+                            <div class="avatar-initials">JTM</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Skills Visualization -->
+            <div class="skills-section">
+                <h3>Technical Expertise</h3>
+                <div class="skills-grid">
+                    <div class="skill-item" data-skill="95">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="90">
+                        <div class="skill-info">
+                            <span class="skill-name">CSS3</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="88">
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="85">
+                        <div class="skill-info">
+                            <span class="skill-name">Bootstrap</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="82">
+                        <div class="skill-info">
+                            <span class="skill-name">React</span>
+                            <span class="skill-percentage">82%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="78">
+                        <div class="skill-info">
+                            <span class="skill-name">Node.js</span>
+                            <span class="skill-percentage">78%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <span class="contact-label">Email</span>
+                            <a href="magarjiban367@email.com">magarjiban367@email.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <span class="contact-label">Phone</span>
+                            <a href="phone:+977 9812345678">+977  9812345678</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <span class="contact-label">Location</span>
+                            <span>Pokhara 31, Nepak</span>
+                        </div>
+                    </div>
+
+                    
+              
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Stack Development Section -->
+    <section id="fullstack" class="section fullstack-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Full Stack Development</h2>
+                <p class="section-subtitle">Building Complete Web Solutions</p>
+            </div>
+            
+            <div class="fullstack-content">
+                <div class="fullstack-description">
+                    <p>Full stack development is the idea of building both the visible part of a website or app and the hidden part that runs in the background. The visible part called the frontend,  it is what users see and interact with like the buttons, menus etc. and The hidden part  called the backend, where all the real work happens such as storing data, checking passwords  and handling logic. A full stack developer is someone who understands and works on both sides.</p>
+                    
+                    <p>As a full stack developer, I understand the entire application lifecycle, can communicate effectively across teams, and build complete solutions independently. This holistic understanding ensures optimal performance, security, and scalability across all application layers, from responsive user interfaces to efficient database operations and secure API implementations.</p>
+                </div>
+
+                <div class="tech-stacks">
+                    <div class="stack-section">
+                        <div class="stack-card frontend-card">
+                            <h4>Frontend Technologies</h4>
+                            <p>Handles user interface, user experience, client-side logic, responsive design, and browser compatibility</p>
+                            <div class="tech-list">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Vue</span>
+                                <span class="tech-tag">Angular</span>
+                            </div>
+                        </div>
+                        
+                        <div class="stack-card backend-card">
+                            <h4>Backend Technologies</h4>
+                            <p>Manages server logic, database operations, API development, authentication, and server security</p>
+                            <div class="tech-list">
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fullstack-actions">
+                    <button class="btn btn--primary" onclick="showArchitecture()">Show Architecture</button>
+                    <button class="btn btn--outline" onclick="openLiveDemo()">Live Demo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HTML Section -->
+    <section id="html" class="section html-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>HTML</h2>
+                <p class="section-subtitle">Semantic Web Structure</p>
+            </div>
+            
+            <div class="html-content">
+                <div class="html-description">
+                    <p>HTML5 is the latest version of HyperText Markup Language, providing semantic elements, multimedia support, and enhanced form controls for modern web development. It serves as the foundation of all web pages, defining structure and meaning through a comprehensive set of elements and attributes that improve accessibility, SEO performance, and code maintainability.</p>
+                    
+                    <p>Modern HTML5 development focuses on semantic markup that improves accessibility, SEO, and code maintainability. By using appropriate semantic elements like header, nav, main, article, section, and aside, developers create documents that are both human-readable and machine-parseable, ensuring better user experiences across all devices and assistive technologies.</p>
+                </div>
+
+                <div class="html-features">
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <h4>Semantic Elements</h4>
+                            <div class="semantic-list">
+                                <span class="semantic-tag">&lt;header&gt;</span>
+                                <span class="semantic-tag">&lt;nav&gt;</span>
+                                <span class="semantic-tag">&lt;main&gt;</span>
+                                <span class="semantic-tag">&lt;article&gt;</span>
+                                <span class="semantic-tag">&lt;section&gt;</span>
+                                <span class="semantic-tag">&lt;aside&gt;</span>
+                                <span class="semantic-tag">&lt;footer&gt;</span>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <h4>Form Controls</h4>
+                            <div class="form-example">
+                                <input type="email" placeholder="Email" class="form-control">
+                                <input type="date" class="form-control">
+                                <input type="range" min="0" max="100" class="form-control">
+                                <label for="10">
+                                    <h4>Form</h4>
+                                    <h5>Select your Favourite subjects</h5>
+     <input type="radio" value="Optional Math" name="Subject" id="10">Optional Maths
+     </label>
+     <label for="12">
+     <input type="radio" value="Environment Science" name="Subject" id="12">Environment science
+     </label>
+     <h5>Select your Favourite subjects</h5>
+     <label for="maths">
+<input type="checkbox" value="Maths" name="subject" id="200">maths
+</label>
+<div><label for="phy">
+<input type="checkbox" value="phy" name="subject" id="201">physics
+</label></div>
+<div><h5>Which city are you from</h5>
+        <select name="city">
+        <option value="Kaski">kaski</option>
+        <option value="Baglung">baglung</option>
+        <option value="gorkha">gorkha</option>
+        <option value="syangja">syangja</option></select></div>
+         <textarea name="Subject" name="feedback" id="20" placeholder="Plz give me your valuable feedback"></textarea> 
+        
+        <input type="submit" value="Submit">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="html-actions">
+                    <button class="btn btn--primary" onclick="openHtmlEditor()">Try HTML Editor</button>
+                    <button class="btn btn--outline" onclick="showDomTree()">Show DOM Tree</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CSS Section -->
+    <section id="css" class="section css-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>CSS3</h2>
+                <p class="section-subtitle">Advanced Styling & Animations</p>
+            </div>
+            
+            <div class="css-content">
+                <div class="css-description">
+                    <p>CSS3 (Cascading Style Sheets) is used to style and layout web pages, providing advanced features like animations, transitions, grid, and flexbox. Modern CSS enables developers to create sophisticated layouts, responsive designs, and engaging user interactions without relying on JavaScript for visual effects, resulting in better performance and maintainability.</p>
+                    
+                    <p>Advanced CSS techniques include CSS Grid for complex layouts, Flexbox for alignment and distribution, custom properties for maintainable code, and CSS animations for enhanced user experiences. These features combine to create visually stunning and highly functional web interfaces that adapt seamlessly across different devices and screen sizes.</p>
+                </div>
+
+                <div class="css-features">
+                    <div class="layout-demo">
+                        <h4>Layout Techniques</h4>
+                        <div class="layout-examples">
+                            <div class="layout-card flexbox-demo">
+                                <span>Flexbox</span>
+                                <div class="flex-items">
+                                    <div class="flex-item"></div>
+                                    <div class="flex-item"></div>
+                                    <div class="flex-item"></div>
+                                </div>
+                            </div>
+                            <div class="layout-card grid-demo">
+                                <span>Grid</span>
+                                <div class="grid-container">
+                                    <div class="grid-item"></div>
+                                    <div class="grid-item"></div>
+                                    <div class="grid-item"></div>
+                                    <div class="grid-item"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Color Demo Section -->
+                    <div class="color-demo-section">
+                        <h4>Interactive Color Tools</h4>
+                        <div class="color-tools">
+                            <div class="theme-switcher">
+                                <h5>Theme Switcher</h5>
+                                <div class="theme-buttons">
+                                    <button class="theme-btn active" data-theme="dark">🌙 Dark</button>
+                                    <button class="theme-btn" data-theme="light">☀️ Light</button>
+                                    <button class="theme-btn" data-theme="blue">🔷 Blue</button>
+                                    <button class="theme-btn" data-theme="green">🟢 Green</button>
+                                </div>
+                            </div>
+                            
+                            <div class="color-picker-tool">
+                                <h5>Live Color Picker</h5>
+                                <div class="color-controls">
+                                    <div class="color-input-group">
+                                        <label>Background:</label>
+                                        <input type="color" id="bg-color" value="#1f2121">
+                                    </div>
+                                    <div class="color-input-group">
+                                        <label>Text:</label>
+                                        <input type="color" id="text-color" value="#f5f5f5">
+                                    </div>
+                                    <div class="color-input-group">
+                                        <label>Accent:</label>
+                                        <input type="color" id="accent-color" value="#32b8cd">
+                                    </div>
+                                </div>
+                                <div class="color-preview" id="color-preview">
+                                    <h6>Live Preview</h6>
+                                    <p>This text changes with your color selection!</p>
+                                    <button class="preview-btn">Sample Button</button>
+                                </div>
+                            </div>
+                            
+                            <div class="gradient-generator">
+                                <h5>Gradient Generator</h5>
+                                <div class="gradient-controls">
+                                    <select id="gradient-direction">
+                                        <option value="to right">Horizontal</option>
+                                        <option value="to bottom">Vertical</option>
+                                        <option value="45deg">Diagonal</option>
+                                        <option value="circle">Radial</option>
+                                    </select>
+                                    <input type="color" id="gradient-start" value="#1fb8cd">
+                                    <input type="color" id="gradient-end" value="#5d878f">
+                                </div>
+                                <div class="gradient-preview" id="gradient-preview"></div>
+                                <code id="gradient-code">background: linear-gradient(to right, #1fb8cd, #5d878f);</code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="css-actions">
+                    <button class="btn btn--primary" onclick="openCssPlayground()">CSS Playground</button>
+                    <button class="btn btn--outline" onclick="applyAllStyles()">Apply All Styles</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Section -->
+    <section id="bootstrap" class="section bootstrap-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Bootstrap Framework</h2>
+                <p class="section-subtitle">Rapid Development & Responsive Design</p>
+            </div>
+            
+            <div class="bootstrap-content">
+                <div class="bootstrap-description">
+                    <p>Bootstrap is a popular framework that make web design faster and easier. It comes with many ready parts inside. There is  button, grid, navbar, card and more. There is no need to build all from zero  just take what is inside and use it because of this  many people like bootstrap. It saves a lot of  time and also make websites look clean and nice.
+Bootstrap is very useful for peoples who build websites. Without it, they need to write long CSS code and do more work. With the help of  bootstrap, it is easy just add a class name and things look good. It also makes website fit in all device like phone, tablet  and laptop which is called responsive. It means the page change size and style to match screen, so there is no problem when opening in small phone or big devices like laptop.
+.</p>
+                    
+                    <p>The framework's 12-column responsive grid system, comprehensive component library, and utility-first approach enable developers to create professional-looking websites quickly. Bootstrap's customizable nature allows for brand-specific adaptations while maintaining the framework's core functionality and accessibility standards, ensuring both rapid development and high-quality results.</p>
+                </div>
+
+                <div class="bootstrap-features">
+                    <div class="grid-preview">
+                        <h4>Responsive Grid System</h4>
+                        <div class="bootstrap-grid-demo">
+                            <div class="row-demo">
+                                <div class="col-demo col-12">col-12</div>
+                            </div>
+                            <div class="row-demo">
+                                <div class="col-demo col-6">col-6</div>
+                                <div class="col-demo col-6">col-6</div>
+                            </div>
+                            <div class="row-demo">
+                                <div class="col-demo col-4">col-4</div>
+                                <div class="col-demo col-4">col-4</div>
+                                <div class="col-demo col-4">col-4</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="component-preview">
+                        <h4>Component Examples</h4>
+                        <div class="bootstrap-components">
+                            <button class="btn btn--primary btn--sm">Primary</button>
+                            <button class="btn btn--outline btn--sm">Secondary</button>
+                            <div class="bootstrap-card">
+                                <div class="card-body">
+                                    <h6>Card Component</h6>
+                                    <p>Flexible content container</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bootstrap-actions">
+                    <button class="btn btn--primary" onclick="openGridBuilder()">Grid Builder</button>
+                    <button class="btn btn--outline" onclick="showComponentGallery()">Component Gallery</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript Section -->
+    <section id="javascript" class="section javascript-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>JavaScript Development</h2>
+                <p class="section-subtitle">Interactive Web Applications</p>
+            </div>
+            
+            <div class="javascript-content">
+                <div class="javascript-description">
+                    <p>JavaScript is a versatile programming language that enables interactive web pages, handling everything from simple animations to complex web applications. Modern JavaScript (ES6+) provides powerful features like async/await, modules, destructuring, and arrow functions that enable developers to write clean, efficient, and maintainable code for both frontend and backend applications.</p>
+                    
+                    <p>Advanced JavaScript development encompasses DOM manipulation, event handling, asynchronous programming, API integration, and modern development patterns. These skills are essential for creating dynamic user interfaces, handling user interactions, and building sophisticated web applications that provide seamless user experiences across all platforms and devices.</p>
+                </div>
+
+                <div class="javascript-features">
+                    <div class="js-concepts">
+                        <h4>Modern JavaScript Features</h4>
+                        <div class="concept-grid">
+                            <div class="concept-card">
+                                <h5>ES6+ Syntax</h5>
+                                <code>const arrow = () => 'Hello World';</code>
+                            </div>
+                            <div class="concept-card">
+                                <h5>Async/Await</h5>
+                                <code>const data = await fetch('/api');</code>
+                            </div>
+                            <div class="concept-card">
+                                <h5>Destructuring</h5>
+                                <code>const {name, age} = user;</code>
+                            </div>
+                            <div class="concept-card">
+                                <h5>Template Literals</h5>
+                                <code>`Hello ${name}!`</code>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Full Featured Calculator -->
+                    <div class="calculator-section">
+                        <h4>Professional Calculator</h4>
+                        <div class="calculator-app">
+                            <div class="calculator-display">
+                                <div class="calc-history" id="calc-history"></div>
+                                <div class="calc-current" id="calc-current">0</div>
+                            </div>
+                            <div class="calculator-buttons">
+                                <button class="calc-btn clear-btn" onclick="calculator.clear()">C</button>
+                                <button class="calc-btn" onclick="calculator.toggleSign()">±</button>
+                                <button class="calc-btn" onclick="calculator.percentage()">%</button>
+                                <button class="calc-btn operator-btn" onclick="calculator.setOperation('÷')">÷</button>
+                                
+                                <button class="calc-btn number-btn" onclick="calculator.inputNumber('7')">7</button>
+                                <button class="calc-btn number-btn" onclick="calculator.inputNumber('8')">8</button>
+                                <button class="calc-btn number-btn" onclick="calculator.inputNumber('9')">9</button>
+                                <button class="calc-btn operator-btn" onclick="calculator.setOperation('×')">×</button>
+                                
+                                <button class="calc-btn number-btn" onclick="calculator.inputNumber('4')">4</button>
+                                <button class="calc-btn number-btn" onclick="calculator.inputNumber('5')">5</button>
+                                <button class="calc-btn number-btn" onclick="calculator.inputNumber('6')">6</button>
+                                <button class="calc-btn operator-btn" onclick="calculator.setOperation('-')">-</button>
+                                
+                                <button class="calc-btn number-btn" onclick="calculator.inputNumber('1')">1</button>
+                                <button class="calc-btn number-btn" onclick="calculator.inputNumber('2')">2</button>
+                                <button class="calc-btn number-btn" onclick="calculator.inputNumber('3')">3</button>
+                                <button class="calc-btn operator-btn" onclick="calculator.setOperation('+')">+</button>
+                                
+                                <button class="calc-btn number-btn zero-btn" onclick="calculator.inputNumber('0')">0</button>
+                                <button class="calc-btn" onclick="calculator.inputDecimal()">.</button>
+                                <button class="calc-btn equals-btn" onclick="calculator.calculate()">=</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="javascript-actions">
+                    <button class="btn btn--primary" onclick="openJsConsole()">JS Console</button>
+                    <button class="btn btn--outline" onclick="showMiniProjects()">Mini Projects</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals -->
+    <div id="architecture-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Full Stack Architecture</h3>
+                <button class="close-modal" onclick="closeModal('architecture-modal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="architecture-diagram">
+                    <div class="arch-layer frontend-layer">
+                        <h4>Frontend</h4>
+                        <p>User Interface & Experience</p>
+                        <div class="tech-stack">HTML • CSS • JavaScript • React</div>
+                    </div>
+                    <div class="arch-arrow">↕️</div>
+                    <div class="arch-layer api-layer">
+                        <h4>API Layer</h4>
+                        <p>Communication Bridge</p>
+                        <div class="tech-stack">REST • GraphQL • WebSockets</div>
+                    </div>
+                    <div class="arch-arrow">↕️</div>
+                    <div class="arch-layer backend-layer">
+                        <h4>Backend</h4>
+                        <p>Server Logic & Database</p>
+                        <div class="tech-stack">Node.js • Express • MongoDB</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Full Stack Live Demo Modal -->
+    <div id="fullstack-demo-modal" class="modal hidden">
+        <div class="modal-content large-modal">
+            <div class="modal-header">
+                <h3>Full Stack Live Demo</h3>
+                <button class="close-modal" onclick="closeModal('fullstack-demo-modal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="fullstack-demo">
+                    <div class="demo-description">
+                        <h4>Interactive Contact Form with Backend Simulation</h4>
+                        <p>This demo showcases frontend-backend communication with form validation, API simulation, and data persistence.</p>
+                    </div>
+                    
+                    <div class="demo-container">
+                        <div class="demo-frontend">
+                            <h5>Frontend (Client-side)</h5>
+                            <form id="demo-form" class="demo-form">
+                                <div class="form-group">
+                                    <label>Full Name</label>
+                                    <input type="text" id="demo-name" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Email Address</label>
+                                    <input type="email" id="demo-email" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Message</label>
+                                    <textarea id="demo-message" class="form-control" rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn--primary">Send Message</button>
+                            </form>
+                            <div id="form-status" class="form-status hidden"></div>
+                        </div>
+                        
+                        <div class="demo-backend">
+                            <h5>Backend Response Log</h5>
+                            <div id="backend-log" class="backend-log">
+                                <div class="log-entry">🟢 Server started on port 3000</div>
+                                <div class="log-entry">📊 Database connected successfully</div>
+                                <div class="log-entry">⏳ Waiting for requests...</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="demo-data">
+                        <h5>Stored Data (Simulated Database)</h5>
+                        <div id="stored-data" class="stored-data">
+                            <em>No data submitted yet...</em>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="html-editor-modal" class="modal hidden">
+        <div class="modal-content large-modal">
+            <div class="modal-header">
+                <h3>HTML Live Editor</h3>
+                <button class="close-modal" onclick="closeModal('html-editor-modal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="editor-container">
+                    <div class="editor-pane">
+                        <h4>HTML Code</h4>
+                        <textarea id="html-editor" class="code-editor" placeholder="Write your HTML here..."><!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <p>This is a paragraph.</p>
+    <button onclick="alert('Hello!')">Click Me</button>
+</body>
+</html></textarea>
+                    </div>
+                    <div class="preview-pane">
+                        <h4>Live Preview</h4>
+                        <iframe id="html-preview" class="preview-frame"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="css-playground-modal" class="modal hidden">
+        <div class="modal-content large-modal">
+            <div class="modal-header">
+                <h3>CSS Playground</h3>
+                <button class="close-modal" onclick="closeModal('css-playground-modal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="playground-container">
+                    <div class="css-editor-pane">
+                        <h4>CSS Styles</h4>
+                        <textarea id="css-editor" class="code-editor" placeholder="Write your CSS here...">.box {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, #1FB8CD, #5D878F);
+    border-radius: 10px;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}</textarea>
+                    </div>
+                    <div class="css-preview-pane">
+                        <h4>Preview</h4>
+                        <div id="css-preview" class="css-preview-area">
+                            <div class="box"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="js-console-modal" class="modal hidden">
+        <div class="modal-content large-modal">
+            <div class="modal-header">
+                <h3>JavaScript Console</h3>
+                <button class="close-modal" onclick="closeModal('js-console-modal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="console-container">
+                    <div class="console-output" id="console-output">
+                        <div class="console-line">
+                            <span class="console-prompt">></span>
+                            <span class="console-text">Welcome to JavaScript Console! Try typing some code.</span>
+                        </div>
+                    </div>
+                    <div class="console-input-container">
+                        <span class="console-prompt">></span>
+                        <input type="text" id="console-input" class="console-input" placeholder="Type JavaScript code here..." autocomplete="off">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
